@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Young+Serif&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Outfit","Young Serif", serif;
+  background-color: antiquewhite;
+}
+main {
+  max-width: 900px;
+  margin: 0 auto;
+}
+.card {
+  background-color: hsl(0, 0%, 100%);
+  padding: 1.5rem;
+  border-radius: 20px;
+  margin-top: 10vh;
+}
+.card *{
+    background: transparent;
+}
+.card>img {
+  width: 100%;
+  border-radius: 20px;
+}
+.card>.forMobile>h1{
+    font-family:"Young Serif", serif;
+    margin: 30px 0 30px 0;
+    font-weight: normal;
+}
+.prep{
+    background-color: hsl(330, 100%, 98%);
+    padding: 1px;
+    margin-top: 2em;
+    border-radius: 20px;
+}
+.prep h3{
+    color: hsl(332, 51%, 32%);
+}
+.prep h3,ul{
+    margin: 20px;
+}
+.prep ul>li{
+    margin: 0 0 10px 20px;
+    padding: 0 0 0 15px;
+}
+.prep ul>li>span{
+    font-weight: 700;
+}
+.ingred{
+    margin-bottom: 30px;
+}
+.ingred h2{
+    font-family:"Young Serif", serif;
+    font-weight: normal;
+    margin-top: 30px;
+    color: hsl(14, 45%, 36%);
+}
+.ingred ul>li{
+    margin: 0 0 10px 0px;
+    padding: 0 0 0 15px;
+    color: hsl(30, 10%, 34%);
+}
+.card>.forMobile hr{
+    color: hsl(30, 18%, 87%);
+    margin-bottom: 2em;
+}
+.instruction{
+    margin-bottom: 26px;
+}
+.instruction h2{
+    font-family:"Young Serif", serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: hsl(14, 45%, 36%);
+}
+.instruction ol>li{
+    margin: 0 0 10px 21px;
+    padding: 0 0 0 15px;
+    color: hsl(30, 10%, 34%);
+}
+.instruction ol>li>span{
+    font-weight: bold;
+}
+.instruction ol>li::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+.nutrition h2{
+    font-family:"Young Serif", serif;
+    font-weight: normal;
+    margin-bottom: 20px;
+    color: hsl(14, 45%, 36%);
+}
+.nutrition>p{
+    color: hsl(30, 10%, 34%);
+    margin-bottom: 1em;
+}
+.nutrition>table{
+    width: 100%;
+}
+.nutrition table td{
+    border-bottom: 1px solid hsl(30, 18%, 87%);;
+    color: hsl(30, 10%, 34%);
+}
+.nutrition>table td{
+    padding: 16px 0 16px 20px;
+}
+.nutrition>table td>span{
+   font-weight: bold;
+}
+@media only screen and (max-width: 375px) {
+    .card {
+        background-color: hsl(0, 0%, 100%);
+        border-radius: 20px;padding: 0;
+        margin-top: 10vh;
+      }
+    .forMobile{
+        padding: 1.5rem;
+    }
+}
