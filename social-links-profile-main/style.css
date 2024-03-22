@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:wght@100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: hsl(0, 0%, 100%);
+    font-family: "Inter", sans-serif;
+}
+main{
+    max-width: 350px;
+    margin: 0 auto;
+    margin-top: 12vh;
+}
+.card {
+    background-color: hsl(0, 0%, 12%);
+    padding: 40px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 12px;
+}
+div>img{
+    width: 70px;
+    border-radius: 50%;
+    margin: 0 0 25px 0;
+}
+div>p{
+    margin: 0 0 9px 0;
+    background: transparent;
+}
+div p:nth-last-child(4) {
+    font-size: 22px;
+    font-weight: 600;
+}
+div p:nth-last-child(3) {
+    font-size: 13px;
+    font-weight: 400;
+    color: rgb(240, 240, 73);
+    margin-bottom: 20px;
+}
+div p:nth-last-child(2) {
+    font-size: 14px;
+    font-weight: 300;
+    margin-bottom: 20px;
+}
+.blocks{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    width: 100%;
+    text-align: center;
+}
+.blocks>span{
+    background:transparent; 
+    padding: 10px;
+    margin: 8px;
+    background-color:hsl(0, 0%, 20%);
+    width: 100%;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: 600;
+}
+.blocks>span:hover{
+    background-color: hsl(75, 94%, 57%);
+    color: black;
+    cursor: pointer
+}
